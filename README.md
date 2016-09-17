@@ -1,0 +1,2 @@
+# shellbash
+arquivo .bashrc customizado
