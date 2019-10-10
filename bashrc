@@ -95,7 +95,6 @@ alias mlog='tail -f /var/log/mail.log |ccze'
 alias mlog1='tail -f /var/log/mail.log'
 alias logr='tail -f /var/log/mail.err'
 
-
 ###Logs bind
 alias blog='tail -f  /var/log/named/bind.log |ccze'
 alias bqlog='tail -f  /var/log/named/bind-queries.log|ccze'
