@@ -94,6 +94,7 @@ alias aa='tail -f /var/log/apache2/access.log |ccze'
 alias mlog='tail -f /var/log/mail.log |ccze'
 alias mlog1='tail -f /var/log/mail.log'
 alias logr='tail -f /var/log/mail.err'
+#alias
 
 ###Logs bind
 alias blog='tail -f  /var/log/named/bind.log |ccze'
