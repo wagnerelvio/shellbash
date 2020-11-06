@@ -138,7 +138,7 @@ alias i='apt-get install'
 alias s='apt-cache search'
 alias update='apt-get update'
 alias upgrade='apt-get upgrade'
-alias atualizar=' updade && upgrade -y'
+alias atualizar=' update && upgrade -y'
 
 
 alias ae='tail -f /var/log/apache2/error.log |ccze'
