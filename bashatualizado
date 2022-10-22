@@ -127,6 +127,12 @@ alias la='ls -A'
 alias l='ls -CF'
 alias ipexterno='/usr/bin/dig +short myip.opendns.com @resolver1.opendns.com'
 
+alias dlog='tail -f  /var/lib/dhcp/dhcpd.leases |ccze'
+
+#alias maquina1='/usr/bin/sshpass -p 123 ssh root@192.168.240.1'
+#alias maquina2='/usr/bin/sshpass -p 123 ssh root@192.168.240.2'
+#alias maquina3='/usr/bin/sshpass -p 123 ssh root@192.168.240.100'
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
