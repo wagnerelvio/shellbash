@@ -1,0 +1,42 @@
+1. Add Public GPG Key
+curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
+.
+.
+.
+
+2. Add pgAdmin 4 repository
+
+sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list'
+.
+.
+.
+
+
+3. Update Ubuntu 22.04
+
+apt update && sudo apt upgrade
+.
+.
+.
+
+4.Install pgAdmin4 on Ubuntu 22.04 server
+
+apt install pgadmin4-desktop
+apt install pgadmin4-web
+apt install pgadmin4
+.
+.
+.
+
+
+5. Configure the pgAdmin user account
+
+/usr/pgadmin4/bin/setup-web.sh
+.
+.
+.
+
+
+6. Access pgAdmin Web Interface
+
+ http://your-server-ip-address/pgadmin4
