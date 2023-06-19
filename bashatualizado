@@ -145,6 +145,9 @@ alias update='apt-get update'
 alias upgrade='apt-get upgrade'
 alias atualizar=' update && upgrade -y'
 
+#versions
+alias update1='apt-get --allow-releaseinfo-change update'
+alias update2='apt-get --allow-releaseinfo-change update'
 
 alias ae='tail -f /var/log/apache2/error.log |ccze'
 alias aa='tail -f /var/log/apache2/access.log |ccze'
